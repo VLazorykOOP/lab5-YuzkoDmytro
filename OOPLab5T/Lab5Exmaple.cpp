@@ -308,9 +308,9 @@ ostream &operator<<(ostream &output, const football &n) {
 }
 
 void exersice3() {
-  cout << "Create sport game basketball wiht 22 players" << endl;
-  sportGame basketball("basketball", 22);
-  basketball.print();
+  cout << "Create sport game voleyball wiht 26 players" << endl;
+  sportGame voleyball("voleyball", 26);
+  voleyball.print();
   football g, f;
   cin >> g;  
   f = g;
